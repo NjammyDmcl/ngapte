@@ -10,8 +10,8 @@ class HomeController extends Controller {
 
     function index(Request $request) {
         $ip = $request->ip();
-        dd($ip);
-        $loc = geoip()->getLocation();
+        //dd($ip);
+        $loc = geoip()->getLocation($ip);
         dd($loc);
         return view('home');
     }
