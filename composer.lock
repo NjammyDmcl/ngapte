@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19bc93995f8bcf43bf0d0db655587379",
+    "content-hash": "a456b3f47032d723a2363a36e2d58558",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -541,6 +541,39 @@
                 "trusted proxy"
             ],
             "time": "2020-06-23T01:36:47+00:00"
+        },
+        {
+            "name": "filipac/ip",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filipac/ip.git",
+                "reference": "bcf6bde8c5aa859cd8a994cd44721f9577aea3e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filipac/ip/zipball/bcf6bde8c5aa859cd8a994cd44721f9577aea3e5",
+                "reference": "bcf6bde8c5aa859cd8a994cd44721f9577aea3e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Filipac\\Ip": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Filip Pacurar",
+                    "email": "hello@filipac.net"
+                }
+            ],
+            "description": "Get the IP in a quick way",
+            "time": "2014-08-31T12:49:52+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
